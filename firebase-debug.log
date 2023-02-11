@@ -1,0 +1,70 @@
+[debug] [2023-02-11T08:35:46.540Z] ----------------------------------------------------------------------
+[debug] [2023-02-11T08:35:46.544Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\THIRUMOORTHY\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-11T08:35:46.545Z] CLI Version:   11.22.0
+[debug] [2023-02-11T08:35:46.545Z] Platform:      win32
+[debug] [2023-02-11T08:35:46.545Z] Node Version:  v16.19.0
+[debug] [2023-02-11T08:35:46.547Z] Time:          Sat Feb 11 2023 14:05:46 GMT+0530 (India Standard Time)
+[debug] [2023-02-11T08:35:46.547Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-11T08:35:46.554Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-02-11T08:35:46.611Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-11T08:35:46.612Z] > authorizing via signed-in user (murthithiru299@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\THIRUMOORTHY\Desktop\search
+
+[debug] [2023-02-11T08:35:47.965Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-02-11T08:35:47.966Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-11T08:36:07.023Z] > refreshing access token with scopes: []
+[debug] [2023-02-11T08:36:07.027Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-11T08:36:07.027Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-11T08:36:08.082Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-02-11T08:36:08.083Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-11T08:36:08.106Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-02-11T08:36:10.279Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-02-11T08:36:10.279Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project searchintrie (search) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2023-02-11T08:36:50.491Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-02-11T08:36:51.746Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-02-11T08:36:51.747Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.17.1","browserURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.tgz"},"live":{"version":"9.17","browserURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.17.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.17.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.17.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.17.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.17.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\THIRUMOORTHY 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=778285184&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-02-11T08:36:59.537Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-02-11T08:36:59.537Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-02-11T08:37:02.301Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-02-11T08:37:02.302Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-02-11T08:37:02.321Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-02-11T08:37:04.141Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-02-11T08:37:04.142Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"web-thiru","id":91480383,"node_id":"MDQ6VXNlcjkxNDgwMzgz","avatar_url":"https://avatars.githubusercontent.com/u/91480383?v=4","gravatar_id":"","url":"https://api.github.com/users/web-thiru","html_url":"https://github.com/web-thiru","followers_url":"https://api.github.com/users/web-thiru/followers","following_url":"https://api.github.com/users/web-thiru/following{/other_user}","gists_url":"https://api.github.com/users/web-thiru/gists{/gist_id}","starred_url":"https://api.github.com/users/web-thiru/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-thiru/subscriptions","organizations_url":"https://api.github.com/users/web-thiru/orgs","repos_url":"https://api.github.com/users/web-thiru/repos","events_url":"https://api.github.com/users/web-thiru/events{/privacy}","received_events_url":"https://api.github.com/users/web-thiru/received_events","type":"User","site_admin":false,"name":"Thirumoorthy S","company":null,"blog":"https://thiru-s.netlify.app/","location":"Chennai,India","email":null,"hireable":null,"bio":"Software Engineer | Java Developer | Front-end Developer","twitter_username":null,"public_repos":6,"public_gists":0,"followers":0,"following":0,"created_at":"2021-09-27T14:21:42Z","updated_at":"2023-01-27T14:08:44Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":2885,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as web-thiru 
+[info] 
